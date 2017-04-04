@@ -1,5 +1,5 @@
 # Empty lines and lines starting with '#' are ignored
-# Servername and local-user can be omitted (the previous value is used in that case)
+# Servername can be omitted (the previous value is used in that case)
 
 # Servername            local-user              remote-user     password
 
