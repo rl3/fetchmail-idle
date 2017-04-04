@@ -1,0 +1,14 @@
+#!/bin/sh
+
+basedir=`dirname "$0"`
+basedir=`readlink -f "$basedir"`
+
+for confdir in "$basedir/"*
+do
+    test -d "$confdir" || continue
+    test -f "$confdir/.disabled" && continue
+    test -f "$confdir/fetchmailrc" || continue
+
+    export FETCHMAILHOME="$confdir"
+    fetchmail 2>&1 | grep -v "awakened"
+done
