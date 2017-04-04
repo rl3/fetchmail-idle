@@ -5,3 +5,6 @@ Simply copy directory email@example.com to another directory, fix settings, dele
 
 You can start the script as often you like - if it's a fetchmail process for an account already started, it simply refreshes the process.
 You should run it via cron every hour or so to make sure, crashed processes are restartet soon.
+
+You may create acoount directory with createAccounts.pl.
+You should copy file accounts.conf.sample to accounts.conf and simply start the script.
