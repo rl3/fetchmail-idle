@@ -39,4 +39,5 @@ EOT
     open $fh, '>', $dir . '/fetchmailrc' or die "Could not create file '$dir/fetchmailrc'";
     print $fh $file;
     close $fh;
+    chmod 0600, $dir . '/fetchmailrc';
 }
