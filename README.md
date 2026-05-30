@@ -1,7 +1,7 @@
 # fetchmail-idle
 Simple script to fetch mails with IMAP's IDLE feature
 
-Simply copy directory `email@example.com` to another name, fix the settings, delete file `.disabled` and start the script.
+Simply copy directory `email@example.com` to another name, fix the settings, delete file `.disabled` and start script `fetch`.
 
 You can start the script as often you like — if a fetchmail process for an account is already started, it simply refreshes the process.
 
