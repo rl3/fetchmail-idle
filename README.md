@@ -7,6 +7,4 @@ You can start the script as often you like — if a fetchmail process for an acc
 
 Add a cronjob that starts this script every hour to make sure crashed processes are restarted soon.
 
-You may create account directories with `createAccounts.pl`.
-
-You should copy file `accounts.conf.sample` to `accounts.conf` and simply start the script.
+You may create account directories with `createAccounts.pl`: Copy file `accounts.conf.sample` to `accounts.conf`, add your accounts and start the script.
